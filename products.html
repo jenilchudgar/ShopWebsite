@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+    *{
+        /* color: red; */
+        font-size: 30px;
+    }
+    ol{
+        font-size: 20px;
+    };
+    .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  h2{
+  text-indent: 5%;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+ol li{
+  margin-left: 35px;
+}
+.com{
+  text-shadow: 5px 5px yellow;
+}
+.bcom{
+  text-align: center;
+  background-color: cyan;
+}
+#company{
+  margin-left: 40px;
+}
+strong + a{
+  margin: 30px;
+}
+.cont
+{
+  position: relative;
+  animation-name: box;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.cont:hover{
+  transform: scale(1.5);
+}
+@keyframes box {
+  0%{
+    top: 0px;
+    left: 0px;
+  }
+  25%{
+    top: 100px;
+    left: 100px;
+  }
+  75%{
+    top: 0px;
+    left: 100px;
+  }
+  100%{
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.cont1
+{
+  position: relative;
+  animation-name: box1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.cont1:hover{
+  transform: scale(1.5);
+}
+@keyframes box1 {
+  0%{
+    top: 0px;
+    left: 0px;
+  }
+  25%{
+    top: -100px;
+    left: -100px;
+  }
+  75%{
+    top: 0px;
+    left: -100px;
+  }
+  100%{
+    top: 0px;
+    left: 0px;
+  }
+}
+
+    </style>
+</head>
+<body>
+  <h2 class="bcom" id="company">Our Umbrella Products:</h2>
+  <!-- Load Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ol>
+<div class="row">
+  <div class="column" style="border: 5px solid red";>
+    <!-- Companie  1 -->
+    <div class="cont">
+      <strong>
+        <li class="com">Citizen</li>
+        </strong>
+        <ol type="a">
+          <!-- Products 1 -->
+        <li>Cartin: &#8377 135 per peice</li>
+        <li>Crook: &#8377 100 per piece</li>
+        <li>Disco: &#8377 100 per peice</li>
+        <li>Jumbo: &#8377 125 per piece</li>
+        <br>
+        </ol>
+    </div>
+  </div>
+  <div class="column" style="border: 5px solid red";>
+    <!-- company 2 -->
+    <div class="cont">
+      <strong>
+        <li class="com">Double Horse Brand</li>
+      </strong>
+      <!-- products 2 -->
+      <ol type="a">
+        <li>8 rips: &#8377 70 per peice</li>
+        <li>Small 8 rips: &#8377 60 per peice</li>
+        <li>12 rips: &#8377 80  per peice</li>
+      </ol>
+    </div>
+</div>
+</ol>
+<ol>
+<h2 class="bcom">Our Kid's Umbrella Products:</h2>
+<div class="row">
+  <div class="column" style="border: 5px solid red";>
+    <div class="cont">
+      <strong class="com"><li>Orange</li></strong>
+    <ol type="a">
+      <li>3 fold black: &#8377 115 per peice</li>
+      <li>products2: &#8377 115 per peice</li>
+      <li>products3: &#8377 120 per peice</li>
+    </ol>
+    </div>
+  </div>
+  <div class="column" style="border: 5px solid red";>
+    <div class="cont1">
+      <strong><li class="com">Aim</li></strong>
+    <ol type="a">
+      <li>21' Disco: &#8377 100 per peice</li>
+      <li>21' M/S: &#8377 100 per peice</li>
+      <li>21' Satin: &#8377 105 per peice</li>
+    </ol>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="border: 5px solid red";>
+    <div class="cont1">
+      <strong class="com"><li>Joly</li></strong>
+    <ol type="a">
+      <li>12X8 Patta Kite: &#8377 55 per peice</li>
+      <li>14X8 Square Kite: &#8377 65 per peice</li>
+      <li>14X8 PI/Patta: &#8377 55 per peice</li>
+      <li>17X8 Patta K: &#8377 60 per peice</li>
+      <li>17X8 Sattin Army: &#8377 70 per peice</li>
+      <li>17X8 Piano Patta: &#8377 65 per peice</li>
+      <li>17X8 Sattin: &#8377 65 per peice</li>
+      <li>15X8 Sattin Garden: &#8377 68 per peice</li>
+      <li>17X8 Sattin Garden: &#8377 75 per peice</li>
+      <li>17X8 Dot: &#8377 75 per peice</li>
+      <li>17X8 Print Sattin: &#8377 80 per peice</li>
+      <li>19X8 Sattin: &#8377 90 per peice</li>
+      <li>19X8 Kite: &#8377 100 per peice</li>
+    </ol>
+    </div>
+  </div>
+    <div class="column" style="border: 5px solid red";>
+      <div class="cont1">
+        <strong class="com"><li>Citizen</li></strong>
+      <ol type="a">
+        <li>3 f Auto Black</li>
+        <li>Monosilver: &#8377 180 per peice</li>
+        <li>Print: &#8377 180 per peice</li>
+        <li>Satin: &#8377 180 per peice</li>
+        <li>Satin Frill: &#8377 190 per peice</li>
+        <strong><li>And More....<br>Please contact us for more product details</li></strong>
+        <a href="cont.html">Contact Us</a>
+
+      </ol>
+    </div>
+</ol>
+</body>
+</html>
